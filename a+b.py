@@ -1,4 +1,2 @@
-a,b=input().split()
-a=int(a)
-b=int(b)
-print(a+b)
+a, b = raw_input().split()
+print(int(a) + int(b))
